@@ -65,13 +65,13 @@ export KCONFIG_NOTIMESTAMP=true
 export ARCH=arm64;
 export SUB_ARCH=arm64;
 
-# G920T
-if [ "$TARGET" = "G920T" ] ; then
-	export KERNEL_CONFIG="custom_defconfig";
+# S901B
+if [ "$TARGET" = "S901B" ] ; then
+	export KERNEL_CONFIG="S22_nethunter_defconfig";
 fi;
 
-# G925T
-if [ "$TARGET" = "G925T" ] ; then
+# S901A
+if [ "$TARGET" = "S901A" ] ; then
 	export KERNEL_CONFIG="custom-zeroltetmo";
 fi;
 
